@@ -5,8 +5,16 @@
     "name": "Dreace",
     "url": "https://blog.dreace.top"
   },
-  "version": "1.0.3",
-  "license": "MIT",
+  "homepage": "https://github.com/Dreace/upload-to-qiniu",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dreace/upload-to-qiniu.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Dreace/upload-to-qiniu/issues"
+  },
+  "version": "1.0.4",
+  "license": "GPL-3.0",
   "main": "dist/upload.js",
   "bin": {
     "upload-to-qiniu": "dist/upload.js"
