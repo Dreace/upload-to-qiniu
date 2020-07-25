@@ -5,7 +5,8 @@ import { program } from 'commander';
 import * as fs from 'fs';
 
 program
-  .version('1.0.3')
+  .version('1.0.4')
+  .name('upload-to-qiniu')
   .requiredOption('-a, --access-key [ak]', 'access key')
   .requiredOption('-s, --secret-key [sk]', 'secret key')
   .option('-d, --upload-dir <dir>', '要上传的目录', './')
